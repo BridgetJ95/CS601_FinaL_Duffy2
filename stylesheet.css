@@ -1,0 +1,262 @@
+body {
+	background-color: rgb(255, 254, 240);
+}
+
+/*text styling*/
+figcaption {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: Georgia, Times, serif;
+	padding-left: 15px;
+	}
+
+	h3 {
+		font-size: 24px;
+	}
+
+h1 {
+	font-size: 48px;
+	letter-spacing: .25em;
+}
+
+#splashPage {
+	padding-left: 75px;
+	padding-top: 75px;
+	z-index: 10;
+	position: relative;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.homePara {
+	padding-left: 75px;
+	padding-right: 75px;
+	z-index: 10;
+	position: relative;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.75em;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+li.hobby, .favorite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;	
+}
+
+#enter {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	z-index: 10;
+	position: relative;
+	left: 75px;
+	width: fit-content;
+	background-color: rgb(92, 24, 43);
+	border-radius: 12px;
+	border: none;
+	}
+
+#enter:hover {
+	background-color: rgb(122, 122, 122);
+
+}
+
+#enterLink {
+	color: rgb(255, 254, 240);
+	text-decoration: none;
+	display: block;
+}
+
+a:link {
+	color:rgb(92, 24, 43);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(122, 122, 122);
+}
+
+a:hover {
+	color: rgb(122, 122, 122);
+}
+
+/* Position header offset by Myev */
+#currentDnD {
+	position: relative;
+	top: 15px;
+	left: 250px;
+}
+
+
+header /*Contains everything in top bar*/ {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(92, 24, 43);
+	color: rgb(255, 254, 240);
+	padding-left: 15px;
+	padding-top: 20px;
+	width: 98%;
+	height: 100px;
+	word-spacing: 2em;
+}
+
+
+/*nav menu*/
+
+
+#nav /*the word Navigating */ {
+	color: rgb(255, 254, 240);
+	float: left;
+	margin-left: 70px;
+	z-index: -1;
+}
+
+.menuButton /*this is the image*/ {
+	position: absolute;
+	float: left;
+	margin-top: 8px;
+	background-color: rgb(92, 24, 43);
+	border: none;
+	cursor: pointer;
+	
+}
+
+.menuButton:hover, .menuButton:focus {
+	background-color: rgb(122, 122, 122);
+}
+
+
+.dropMenu a {
+	color:rgb(92, 24, 43);
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+}
+
+#DropDiv {
+	margin-top: 75px;
+	position: absolute;
+	background-color: rgb(255, 254, 240);
+	z-index: 10;
+}
+
+.MenuContent {
+	display: none;
+}
+
+.dropMenu a:hover {background-color: rgb(122, 122, 122);}
+
+.show {
+	display: block;
+}
+
+/*photo placements*/
+#splash {
+	width: 90%;
+	padding: 50px;
+	position: absolute;
+	z-index: 0;
+	opacity: .7;
+}
+
+#baby {
+	width: 350px;
+	height: 325px;
+	float: left;
+} 
+
+#DnDPhoto {
+	width: 500px;
+	height: 405px;
+	float: right;
+}
+
+#selfie {
+	width: 350px;
+	height: 385px;
+}
+
+#Myev {
+	float: left;
+}
+
+#MyevImg {
+	width: 350px;
+	height: 350px;
+}
+
+#Ron {
+	float: right;
+} 
+
+#femShep {
+	float:left;
+}
+
+#HadesGame {
+	float: right;
+}
+
+#BrooksFalls {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* trying to put my figures and their captions in nice lil boxes! */
+
+figure {
+	border-style: solid;
+	padding: 10px;
+	background-color: rgb(242, 236, 218);
+	width: fit-content;
+}
+
+/*Styling the friends table*/
+
+table	{
+	width: 90%;
+}
+
+th, td{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+	padding: 15px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+}
+
+td{
+	padding: 5px;
+}
+
+/*screen responsivity */
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 20px;
+		text-decoration: underline;
+	}
+	th {
+		letter-spacing: normal;
+		text-transform: none;
+		padding: 5px;
+	}
+}
