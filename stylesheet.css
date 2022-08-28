@@ -8,12 +8,12 @@ figcaption {
 	text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, #nav {
 	font-family: Georgia, Times, serif;
 	padding-left: 15px;
 	}
 
-	h3 {
+	h3, #nav {
 		font-size: 24px;
 	}
 
@@ -116,36 +116,35 @@ header /*Contains everything in top bar*/ {
 #nav /*the word Navigating */ {
 	color: rgb(255, 254, 240);
 	float: left;
-	margin-left: 70px;
-	z-index: -1;
 }
 
-.menuButton /*this is the image*/ {
+.menuButton /*this is the clickable*/ {
+	border: 2px solid rgb(255, 254, 240);
+	padding: 10px;
+	border-radius: 4px;
 	position: absolute;
 	float: left;
-	margin-top: 8px;
+	margin-top: 10px;
 	background-color: rgb(92, 24, 43);
-	border: none;
 	cursor: pointer;
-	
+	z-index: 1;
 }
 
 .menuButton:hover, .menuButton:focus {
 	background-color: rgb(122, 122, 122);
 }
 
-
 .dropMenu a {
-	color:rgb(92, 24, 43);
+	color:rgb(255, 254, 240);
 	padding: 10px;
 	text-decoration: none;
 	display: block;
-}
+	}
 
 #DropDiv {
 	margin-top: 75px;
 	position: absolute;
-	background-color: rgb(255, 254, 240);
+	background-color:rgb(92, 24, 43);
 	z-index: 10;
 }
 
